@@ -5,7 +5,7 @@ import lombok.RequiredArgsConstructor;
 
 @Getter
 @RequiredArgsConstructor
-public enum GameOutcome {
+public enum RoundOutcome {
     LOST(0), DRAW(3), WIN(6);
 
     private final int score;
